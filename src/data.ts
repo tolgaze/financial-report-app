@@ -1,0 +1,73 @@
+import { DbType } from "./store/data.type";
+
+let testData: DbType = {
+  totalInvestment: 55000,
+  currentValue: 60000,
+  profitLossPercent: 0.1111,
+  initialInvestment: 45000,
+  realizedProfit: 10000,
+  symbols: [
+    {
+      id: "USD",
+      group: "Cash",
+      price: 1,
+      holding: 10000,
+      avgPrice: 1,
+      investmentUsd: 10000,
+      plUsd: 360,
+      plPercent: 0.34,
+      currentValueUsd: 10000,
+      color: "green",
+      precision: 2,
+    },
+    {
+      id: "EUR",
+      group: "Cash",
+      price: 2,
+      holding: 5000,
+      avgPrice: 1,
+      investmentUsd: 5000,
+      plUsd: 5000,
+      plPercent: 1,
+      currentValueUsd: 5000,
+      color: "royalblue",
+      precision: 2,
+    },
+    {
+      id: "Gold",
+      group: "Commodity",
+      price: 2000,
+      holding: 10,
+      avgPrice: 1500,
+      investmentUsd: 15000,
+      plUsd: 5000,
+      plPercent: 0.33,
+      currentValueUsd: 10000,
+      color: "gold",
+      precision: 0,
+    },
+    {
+      id: "BTC",
+      group: "Crypto",
+      price: 20000,
+      holding: 1,
+      avgPrice: 25000,
+      investmentUsd: 25000,
+      plUsd: -5000,
+      plPercent: -0.25,
+      currentValueUsd: 20000,
+      color: "orange",
+      precision: 0,
+    },
+  ],
+  realizedProfits: [
+    {
+      symbolId: "BTC",
+      profit: 10000,
+      salePrice: 30000,
+      saleAmount: 1,
+    },
+  ],
+};
+
+export { testData };

@@ -1,0 +1,26 @@
+.AppHeader {
+  font-size: x-large;
+  color: white;
+}
+.SummaryValue {
+  font-size: large;
+}
+.SummarySubText {
+  color: grey;
+  font-size: 9pt;
+  font-weight: bold;
+}
+.SymbolName {
+  color: black;
+  font-size: large;
+}
+.SymbolListTitle {
+  color: grey;
+  font-size: larger;
+  padding: 8px;
+  font-weight: bold;
+}
+.SymbolSubText {
+  color: grey;
+  font-size: 9pt;
+}
